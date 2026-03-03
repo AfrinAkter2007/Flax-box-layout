@@ -4,19 +4,21 @@ body {
     margin: 0;
     padding: 20px;
     color: #886666;
+
 }
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
+
 }
 
-/* Header */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    
 }
 
 .logo img {
@@ -35,15 +37,19 @@ body {
     align-items: center;
     padding: 50px;
     margin-bottom: 50px;
+    
+
 }
 
 .banner-content {
     flex: 1;
+    
 }
 
 .banner-content h1 {
     font-size: 40px;
     margin-bottom: 10px;
+
 }
 
 .banner-content p {
@@ -88,7 +94,6 @@ body {
 }   
 
 .orange { background-color: orange; 
-    
 }
 .pink { 
    background-color: pink;
@@ -102,6 +107,7 @@ body {
     display: flex;
     gap: 25px;
     margin-bottom: 60px;
+
 }
 
 .product-card {
@@ -110,16 +116,19 @@ body {
     border-radius: 15px;
     text-align: center;
     flex: 1px;
+    border: 2px solid black;
 }
 
 .product-card img {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 15px; 
+
 }
 
 .product-card h3 {
     font-size: 18px;
     margin-bottom: 10px;
+
 }
 
 .product-card p {
@@ -151,14 +160,17 @@ body {
     border-radius: 10px;
     text-align: center;
     justify-content: center;
+
 }
 
 .footer-box h1 {
     margin-bottom: 10px;
+
 }
 
 .subscribe-form {
     margin-top: 30px;
+    
 }
 
 .subscribe-form input {
